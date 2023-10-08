@@ -2023,6 +2023,25 @@ h1, h2, h3, h4, h5,
     border-color: #0056b3;
   }
 
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .img-head {
+    animation: floatAnimation 3s infinite;
+    /* transition: transform .3s; */
+  }
+  
+  /* Efek Hover */
+  /* .img-head:hover {
+    transform: scale(1.1);
+  } */
+
   @media (max-width: 768px) {
     .img-head {
       margin-top: 100px;
