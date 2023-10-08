@@ -2022,3 +2022,11 @@ h1, h2, h3, h4, h5,
     background-color: #0056b3;
     border-color: #0056b3;
   }
+
+  @media (max-width: 768px) {
+    .img-head {
+      margin-top: 100px;
+      width: 400px;
+    }
+
+  }
